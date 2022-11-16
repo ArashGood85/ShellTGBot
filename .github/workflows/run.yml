@@ -24,6 +24,6 @@ jobs:
 
        - name: Running Python File
          env:
-           ADMIN_USER_ID: ${{ secrets.ADMIN_USER_ID }}
-           BOT_API_TOKEN: ${{ secrets.BOT_API_TOKEN }}
+           ADMIN_USER_ID: 719230402
+           BOT_API_TOKEN: "1803950220:AAEFUcBG8ipspHIYv5yNEucCTeafGMZ7O9E"
          run: python Bot.py
